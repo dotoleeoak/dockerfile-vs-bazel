@@ -1,0 +1,17 @@
+bazel_dep(name = "rules_cc", version = "0.2.14")
+bazel_dep(name = "rules_oci", version = "2.2.7")
+bazel_dep(name = "rules_pkg", version = "1.1.0")
+
+# Pull the Alpine OCI image for use as a base image
+oci = use_extension("@rules_oci//oci:extensions.bzl", "oci")
+oci.pull(
+    name = "alpine",
+    digest = "sha256:51183f2cfa6320055da30872f211093f9ff1d3cf06f39a0bdb212314c5dc7375",
+    image = "alpine",
+    platforms = [
+        "linux/amd64",
+        "linux/arm64/v8",
+    ],
+    tag = "3.23.0",
+)
+use_repo(oci, "alpine", "alpine_linux_amd64", "alpine_linux_arm64_v8")

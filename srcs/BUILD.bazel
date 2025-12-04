@@ -1,0 +1,40 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+load("@rules_oci//oci:defs.bzl", "oci_image", "oci_load")
+load("@rules_pkg//pkg:tar.bzl", "pkg_tar")
+
+cc_library(
+    name = "hello_greet",
+    srcs = ["hello_greet.cc"],
+    hdrs = ["hello_greet.h"],
+)
+
+cc_binary(
+    name = "hello_world",
+    srcs = ["hello_world.cc"],
+    deps = [
+        ":hello_greet",
+        "//libs:hello_time",
+    ],
+)
+
+# Create a tarball layer with the binary in /app
+pkg_tar(
+    name = "layer",
+    srcs = [":hello_world"],
+    package_dir = "/app",
+)
+
+# Create an OCI image based on alpine with the tarball layer
+oci_image(
+    name = "image",
+    base = "@alpine",
+    entrypoint = ["/app/hello_world"],
+    tars = [":layer"],
+)
+
+# Load the OCI image for pushing or running
+oci_load(
+    name = "load_image",
+    image = ":image",
+    repo_tags = ["hello_world:bazel"],
+)
