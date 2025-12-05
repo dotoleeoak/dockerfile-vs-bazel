@@ -1,0 +1,779 @@
+{
+	"packages": [
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "debconf_1.5.91_amd64",
+					"name": "debconf",
+					"version": "1.5.91"
+				}
+			],
+			"key": "tzdata_2025b-4-p-deb13u1_amd64",
+			"name": "tzdata",
+			"sha256": "19a87f5184503fb5eeffe97bd7e107e193ac28107789a1e85331ed9381040f17",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/t/tzdata/tzdata_2025b-4+deb13u1_all.deb"
+			],
+			"version": "2025b-4+deb13u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "debconf_1.5.91_amd64",
+			"name": "debconf",
+			"sha256": "1ddc7e6c5925f748eefb7ca811d98e049f18c158bb21fbc7e122262ce6011e49",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/d/debconf/debconf_1.5.91_all.deb"
+			],
+			"version": "1.5.91"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "debianutils_5.23.2_amd64",
+					"name": "debianutils",
+					"version": "5.23.2"
+				},
+				{
+					"key": "libc6_2.41-12_amd64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_amd64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_amd64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "base-files_13.8-p-deb13u2_amd64",
+					"name": "base-files",
+					"version": "13.8+deb13u2"
+				},
+				{
+					"key": "mawk_1.3.4.20250131-1_amd64",
+					"name": "mawk",
+					"version": "1.3.4.20250131-1"
+				},
+				{
+					"key": "libtinfo6_6.5-p-20250216-2_amd64",
+					"name": "libtinfo6",
+					"version": "6.5+20250216-2"
+				}
+			],
+			"key": "bash_5.2.37-2-p-b5_amd64",
+			"name": "bash",
+			"sha256": "2970fb73f4fb08a5e3d2875fcc3403dca5b57a22fc8021e10281c9f0d97688b6",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/b/bash/bash_5.2.37-2+b5_amd64.deb"
+			],
+			"version": "5.2.37-2+b5"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "debianutils_5.23.2_amd64",
+			"name": "debianutils",
+			"sha256": "720e43fda316676076498b4224ad3318049deafe60cc7c601011048de03ee97d",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.23.2_amd64.deb"
+			],
+			"version": "5.23.2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libc6_2.41-12_amd64",
+			"name": "libc6",
+			"sha256": "6cff801097cd0eb2126b60e533f37afdc78456efacdf2bfae62877f00c795d0b",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/glibc/libc6_2.41-12_amd64.deb"
+			],
+			"version": "2.41-12"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgcc-s1_14.2.0-19_amd64",
+			"name": "libgcc-s1",
+			"sha256": "3c71917b490d1a17aed43196a2787a256ecf060526cdb20216a74bedc061b150",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gcc-14/libgcc-s1_14.2.0-19_amd64.deb"
+			],
+			"version": "14.2.0-19"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "gcc-14-base_14.2.0-19_amd64",
+			"name": "gcc-14-base",
+			"sha256": "5b6825de4263824b78c4c51f6476414f3b4e89c2ab63e81dc8b9b5501e867cf6",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gcc-14/gcc-14-base_14.2.0-19_amd64.deb"
+			],
+			"version": "14.2.0-19"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "base-files_13.8-p-deb13u2_amd64",
+			"name": "base-files",
+			"sha256": "66e6a80a88792d8c54467394f4f00b56d49d96ae3cd09fdaff2f66f953a9d72f",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8+deb13u2_amd64.deb"
+			],
+			"version": "13.8+deb13u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "mawk_1.3.4.20250131-1_amd64",
+			"name": "mawk",
+			"sha256": "ade14470c4dff8921bca6ca8b1ea20eadc0f2178b48caff3c74534b17a633292",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20250131-1_amd64.deb"
+			],
+			"version": "1.3.4.20250131-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libtinfo6_6.5-p-20250216-2_amd64",
+			"name": "libtinfo6",
+			"sha256": "8b9f6a7983e9418564e48a627518de4c03917b56efe68d7f3e93bd8fffa1cc10",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.5+20250216-2_amd64.deb"
+			],
+			"version": "6.5+20250216-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "libsystemd0_257.9-1_deb13u1_amd64",
+					"name": "libsystemd0",
+					"version": "257.9-1~deb13u1"
+				},
+				{
+					"key": "libcap2_1-2.75-10-p-b1_amd64",
+					"name": "libcap2",
+					"version": "1:2.75-10+b1"
+				},
+				{
+					"key": "libc6_2.41-12_amd64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_amd64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_amd64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "libssl3t64_3.5.4-1_deb13u1_amd64",
+					"name": "libssl3t64",
+					"version": "3.5.4-1~deb13u1"
+				},
+				{
+					"key": "openssl-provider-legacy_3.5.4-1_deb13u1_amd64",
+					"name": "openssl-provider-legacy",
+					"version": "3.5.4-1~deb13u1"
+				},
+				{
+					"key": "zlib1g_1-1.3.dfsg-p-really1.3.1-1-p-b1_amd64",
+					"name": "zlib1g",
+					"version": "1:1.3.dfsg+really1.3.1-1+b1"
+				},
+				{
+					"key": "libzstd1_1.5.7-p-dfsg-1_amd64",
+					"name": "libzstd1",
+					"version": "1.5.7+dfsg-1"
+				},
+				{
+					"key": "libselinux1_3.8.1-1_amd64",
+					"name": "libselinux1",
+					"version": "3.8.1-1"
+				},
+				{
+					"key": "libpcre2-8-0_10.46-1_deb13u1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.46-1~deb13u1"
+				},
+				{
+					"key": "libgmp10_2-6.3.0-p-dfsg-3_amd64",
+					"name": "libgmp10",
+					"version": "2:6.3.0+dfsg-3"
+				},
+				{
+					"key": "libattr1_1-2.5.2-3_amd64",
+					"name": "libattr1",
+					"version": "1:2.5.2-3"
+				},
+				{
+					"key": "libacl1_2.3.2-2-p-b1_amd64",
+					"name": "libacl1",
+					"version": "2.3.2-2+b1"
+				}
+			],
+			"key": "coreutils_9.7-3_amd64",
+			"name": "coreutils",
+			"sha256": "1299ab6f9389a288eb2f5f3dd222c26cc777b9a2d5ecb6ee4cbd340cebcdada2",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/c/coreutils/coreutils_9.7-3_amd64.deb"
+			],
+			"version": "9.7-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsystemd0_257.9-1_deb13u1_amd64",
+			"name": "libsystemd0",
+			"sha256": "7f01e4f48904e33768dafd9ae8afe3a5c453c479d310c2a732e979b2287f2932",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/s/systemd/libsystemd0_257.9-1~deb13u1_amd64.deb"
+			],
+			"version": "257.9-1~deb13u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcap2_1-2.75-10-p-b1_amd64",
+			"name": "libcap2",
+			"sha256": "8f0d75f79b6e6a8da7d3755d5cbee2ff30892de411e37ac03e6dee99b8207ce2",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libc/libcap2/libcap2_2.75-10+b1_amd64.deb"
+			],
+			"version": "1:2.75-10+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libssl3t64_3.5.4-1_deb13u1_amd64",
+			"name": "libssl3t64",
+			"sha256": "7fc9f0372f9271eaad49dbe373f858897853bb02eef6f30f25112cebf2f4afd0",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/o/openssl/libssl3t64_3.5.4-1~deb13u1_amd64.deb"
+			],
+			"version": "3.5.4-1~deb13u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "openssl-provider-legacy_3.5.4-1_deb13u1_amd64",
+			"name": "openssl-provider-legacy",
+			"sha256": "0a4003bfd2442b86908e1a626cf46159af35aa78308abd3186515fdf8c7f056b",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/o/openssl/openssl-provider-legacy_3.5.4-1~deb13u1_amd64.deb"
+			],
+			"version": "3.5.4-1~deb13u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "zlib1g_1-1.3.dfsg-p-really1.3.1-1-p-b1_amd64",
+			"name": "zlib1g",
+			"sha256": "015be740d6236ad114582dea500c1d907f29e16d6db00566ca32fb68d71ac90d",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/z/zlib/zlib1g_1.3.dfsg+really1.3.1-1+b1_amd64.deb"
+			],
+			"version": "1:1.3.dfsg+really1.3.1-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libzstd1_1.5.7-p-dfsg-1_amd64",
+			"name": "libzstd1",
+			"sha256": "2f6a2aeacfc925eba8b00ac9139bc4bfccf8cacb09eb93de067074b26948eef9",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libz/libzstd/libzstd1_1.5.7+dfsg-1_amd64.deb"
+			],
+			"version": "1.5.7+dfsg-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libselinux1_3.8.1-1_amd64",
+			"name": "libselinux1",
+			"sha256": "68bb8d32bd8d6d7d2f5952a169db03d1484b46ae1e52abccdec42a19dccea5d5",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libs/libselinux/libselinux1_3.8.1-1_amd64.deb"
+			],
+			"version": "3.8.1-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpcre2-8-0_10.46-1_deb13u1_amd64",
+			"name": "libpcre2-8-0",
+			"sha256": "6aa452af6a07e34498bf8e734e8789c9dd602fb34f12572e62dc1bba4889a60e",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-8-0_10.46-1~deb13u1_amd64.deb"
+			],
+			"version": "10.46-1~deb13u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libgmp10_2-6.3.0-p-dfsg-3_amd64",
+			"name": "libgmp10",
+			"sha256": "d0d0265eb01770f17afd0f7c8c0622f80479dcfbbe13653a0debeec61464e622",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gmp/libgmp10_6.3.0+dfsg-3_amd64.deb"
+			],
+			"version": "2:6.3.0+dfsg-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libattr1_1-2.5.2-3_amd64",
+			"name": "libattr1",
+			"sha256": "606b5ee12ea2786be607a17f40c1fb5e65c76ceaff66665bdf8f8c6c1b71d1fb",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/a/attr/libattr1_2.5.2-3_amd64.deb"
+			],
+			"version": "1:2.5.2-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libacl1_2.3.2-2-p-b1_amd64",
+			"name": "libacl1",
+			"sha256": "08074f01e384bc07c0c2d79a58cf4a6523f71cf75d1808101c79617656c9a39d",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/a/acl/libacl1_2.3.2-2+b1_amd64.deb"
+			],
+			"version": "2.3.2-2+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [
+				{
+					"key": "libpcre2-8-0_10.46-1_deb13u1_amd64",
+					"name": "libpcre2-8-0",
+					"version": "10.46-1~deb13u1"
+				},
+				{
+					"key": "libc6_2.41-12_amd64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_amd64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_amd64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				}
+			],
+			"key": "grep_3.11-4_amd64",
+			"name": "grep",
+			"sha256": "2d78ed07d86a530ebf538f05cb2415f37c8daf908596bc32fc2563cc7e88c55a",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/grep/grep_3.11-4_amd64.deb"
+			],
+			"version": "3.11-4"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "debconf_1.5.91_arm64",
+					"name": "debconf",
+					"version": "1.5.91"
+				}
+			],
+			"key": "tzdata_2025b-4-p-deb13u1_arm64",
+			"name": "tzdata",
+			"sha256": "19a87f5184503fb5eeffe97bd7e107e193ac28107789a1e85331ed9381040f17",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/t/tzdata/tzdata_2025b-4+deb13u1_all.deb"
+			],
+			"version": "2025b-4+deb13u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "debconf_1.5.91_arm64",
+			"name": "debconf",
+			"sha256": "1ddc7e6c5925f748eefb7ca811d98e049f18c158bb21fbc7e122262ce6011e49",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/d/debconf/debconf_1.5.91_all.deb"
+			],
+			"version": "1.5.91"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "debianutils_5.23.2_arm64",
+					"name": "debianutils",
+					"version": "5.23.2"
+				},
+				{
+					"key": "libc6_2.41-12_arm64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_arm64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_arm64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "base-files_13.8-p-deb13u2_arm64",
+					"name": "base-files",
+					"version": "13.8+deb13u2"
+				},
+				{
+					"key": "mawk_1.3.4.20250131-1_arm64",
+					"name": "mawk",
+					"version": "1.3.4.20250131-1"
+				},
+				{
+					"key": "libtinfo6_6.5-p-20250216-2_arm64",
+					"name": "libtinfo6",
+					"version": "6.5+20250216-2"
+				}
+			],
+			"key": "bash_5.2.37-2-p-b5_arm64",
+			"name": "bash",
+			"sha256": "0f3b8353365706c5771d83dc1338f739aada9e8931e406914b3fa98172b95d74",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/b/bash/bash_5.2.37-2+b5_arm64.deb"
+			],
+			"version": "5.2.37-2+b5"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "debianutils_5.23.2_arm64",
+			"name": "debianutils",
+			"sha256": "662d59d9cd0d46f0250ddcd997353be915fbc6be692d7c676c73dc33c90715e8",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.23.2_arm64.deb"
+			],
+			"version": "5.23.2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libc6_2.41-12_arm64",
+			"name": "libc6",
+			"sha256": "a301d59205ca21fb1c35c33d563e76a3d1d5398157f10a0edcb89dd649a0f59f",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/glibc/libc6_2.41-12_arm64.deb"
+			],
+			"version": "2.41-12"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libgcc-s1_14.2.0-19_arm64",
+			"name": "libgcc-s1",
+			"sha256": "1108bc87879833d6d9a145f22a4a15cddb34e065b4b5f4b97bee586adbac2851",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gcc-14/libgcc-s1_14.2.0-19_arm64.deb"
+			],
+			"version": "14.2.0-19"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "gcc-14-base_14.2.0-19_arm64",
+			"name": "gcc-14-base",
+			"sha256": "34ee90679b018c0e64234747a4c4c0ae6b7f63541115037465a8627c2dfbc594",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gcc-14/gcc-14-base_14.2.0-19_arm64.deb"
+			],
+			"version": "14.2.0-19"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "base-files_13.8-p-deb13u2_arm64",
+			"name": "base-files",
+			"sha256": "2f0252d48f3897d260923c14f5416e41ac9bb198d9d5f7e05c5ba8a1d5893b20",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8+deb13u2_arm64.deb"
+			],
+			"version": "13.8+deb13u2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "mawk_1.3.4.20250131-1_arm64",
+			"name": "mawk",
+			"sha256": "0ab946ff4b8a34d93f81727957612f290c86cd0db39e849dc0ae5e3f3a9563d6",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20250131-1_arm64.deb"
+			],
+			"version": "1.3.4.20250131-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libtinfo6_6.5-p-20250216-2_arm64",
+			"name": "libtinfo6",
+			"sha256": "2a747f7fff3c2347c357387a7133df997410f07ba1b1df1a1461a97bd7fbc2fc",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.5+20250216-2_arm64.deb"
+			],
+			"version": "6.5+20250216-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "libsystemd0_257.9-1_deb13u1_arm64",
+					"name": "libsystemd0",
+					"version": "257.9-1~deb13u1"
+				},
+				{
+					"key": "libcap2_1-2.75-10-p-b1_arm64",
+					"name": "libcap2",
+					"version": "1:2.75-10+b1"
+				},
+				{
+					"key": "libc6_2.41-12_arm64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_arm64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_arm64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "libssl3t64_3.5.4-1_deb13u1_arm64",
+					"name": "libssl3t64",
+					"version": "3.5.4-1~deb13u1"
+				},
+				{
+					"key": "openssl-provider-legacy_3.5.4-1_deb13u1_arm64",
+					"name": "openssl-provider-legacy",
+					"version": "3.5.4-1~deb13u1"
+				},
+				{
+					"key": "zlib1g_1-1.3.dfsg-p-really1.3.1-1-p-b1_arm64",
+					"name": "zlib1g",
+					"version": "1:1.3.dfsg+really1.3.1-1+b1"
+				},
+				{
+					"key": "libzstd1_1.5.7-p-dfsg-1_arm64",
+					"name": "libzstd1",
+					"version": "1.5.7+dfsg-1"
+				},
+				{
+					"key": "libselinux1_3.8.1-1_arm64",
+					"name": "libselinux1",
+					"version": "3.8.1-1"
+				},
+				{
+					"key": "libpcre2-8-0_10.46-1_deb13u1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.46-1~deb13u1"
+				},
+				{
+					"key": "libgmp10_2-6.3.0-p-dfsg-3_arm64",
+					"name": "libgmp10",
+					"version": "2:6.3.0+dfsg-3"
+				},
+				{
+					"key": "libattr1_1-2.5.2-3_arm64",
+					"name": "libattr1",
+					"version": "1:2.5.2-3"
+				},
+				{
+					"key": "libacl1_2.3.2-2-p-b1_arm64",
+					"name": "libacl1",
+					"version": "2.3.2-2+b1"
+				}
+			],
+			"key": "coreutils_9.7-3_arm64",
+			"name": "coreutils",
+			"sha256": "99b2531e8d16e4f2d3f239ae3cb57913ec1f43764d2d6cd5c69154cbb1e57f3e",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/c/coreutils/coreutils_9.7-3_arm64.deb"
+			],
+			"version": "9.7-3"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libsystemd0_257.9-1_deb13u1_arm64",
+			"name": "libsystemd0",
+			"sha256": "df3d0ff135266fba26ec7ecd9daacf253c2675c36378e12034df2fe74ace338f",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/s/systemd/libsystemd0_257.9-1~deb13u1_arm64.deb"
+			],
+			"version": "257.9-1~deb13u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libcap2_1-2.75-10-p-b1_arm64",
+			"name": "libcap2",
+			"sha256": "eaa7d2691883a568193571554afdf636f84faaab61baeb2fcb66768e1c8edbc9",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libc/libcap2/libcap2_2.75-10+b1_arm64.deb"
+			],
+			"version": "1:2.75-10+b1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libssl3t64_3.5.4-1_deb13u1_arm64",
+			"name": "libssl3t64",
+			"sha256": "10f4f502357d77de550714f62ac01d84271e55a91d84b712cd81900fbfa86d13",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/o/openssl/libssl3t64_3.5.4-1~deb13u1_arm64.deb"
+			],
+			"version": "3.5.4-1~deb13u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "openssl-provider-legacy_3.5.4-1_deb13u1_arm64",
+			"name": "openssl-provider-legacy",
+			"sha256": "53bbd0f1dcc6aff96d79a2f726f839c60dc95df681dcf1427f564e184fb6fc7f",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/o/openssl/openssl-provider-legacy_3.5.4-1~deb13u1_arm64.deb"
+			],
+			"version": "3.5.4-1~deb13u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "zlib1g_1-1.3.dfsg-p-really1.3.1-1-p-b1_arm64",
+			"name": "zlib1g",
+			"sha256": "209aa5cf671e97b9eb0410844fa6df4cae2e75b0c72e7802ab6c8ece13e6ddef",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/z/zlib/zlib1g_1.3.dfsg+really1.3.1-1+b1_arm64.deb"
+			],
+			"version": "1:1.3.dfsg+really1.3.1-1+b1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libzstd1_1.5.7-p-dfsg-1_arm64",
+			"name": "libzstd1",
+			"sha256": "924540bd59fdbfa77a0604360efdaca54411a43daf11c7e002a3c64791b67448",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libz/libzstd/libzstd1_1.5.7+dfsg-1_arm64.deb"
+			],
+			"version": "1.5.7+dfsg-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libselinux1_3.8.1-1_arm64",
+			"name": "libselinux1",
+			"sha256": "fc13da4c7783b8f4361d92ef1045931f298d1b0ac78ed1a85c2232615f49fc6f",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/libs/libselinux/libselinux1_3.8.1-1_arm64.deb"
+			],
+			"version": "3.8.1-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libpcre2-8-0_10.46-1_deb13u1_arm64",
+			"name": "libpcre2-8-0",
+			"sha256": "f74d3e1082c2d6d2f7b4d47e41070de4a7e2f7f9d0e6e0c901ebfe0e82cdd3ee",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-8-0_10.46-1~deb13u1_arm64.deb"
+			],
+			"version": "10.46-1~deb13u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libgmp10_2-6.3.0-p-dfsg-3_arm64",
+			"name": "libgmp10",
+			"sha256": "a27bbc27f119161ea9702c8dd66f54131cdf0d2ca73000f50ea91ef2fdfef0fb",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/gmp/libgmp10_6.3.0+dfsg-3_arm64.deb"
+			],
+			"version": "2:6.3.0+dfsg-3"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libattr1_1-2.5.2-3_arm64",
+			"name": "libattr1",
+			"sha256": "25057d7bfba969a76cdf18ae88ce7ff6e664520726ddf02cdde97c03d5e9a43c",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/a/attr/libattr1_2.5.2-3_arm64.deb"
+			],
+			"version": "1:2.5.2-3"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libacl1_2.3.2-2-p-b1_arm64",
+			"name": "libacl1",
+			"sha256": "10b2399169e42e6d8db55944116cb2ed61caab997cf700acb83de0b0668e5721",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/a/acl/libacl1_2.3.2-2+b1_arm64.deb"
+			],
+			"version": "2.3.2-2+b1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [
+				{
+					"key": "libpcre2-8-0_10.46-1_deb13u1_arm64",
+					"name": "libpcre2-8-0",
+					"version": "10.46-1~deb13u1"
+				},
+				{
+					"key": "libc6_2.41-12_arm64",
+					"name": "libc6",
+					"version": "2.41-12"
+				},
+				{
+					"key": "libgcc-s1_14.2.0-19_arm64",
+					"name": "libgcc-s1",
+					"version": "14.2.0-19"
+				},
+				{
+					"key": "gcc-14-base_14.2.0-19_arm64",
+					"name": "gcc-14-base",
+					"version": "14.2.0-19"
+				}
+			],
+			"key": "grep_3.11-4-p-b1_arm64",
+			"name": "grep",
+			"sha256": "6f7257fbec0197bd54b2347861ff01e2c4e8411790b0df20242483615324fe66",
+			"urls": [
+				"https://deb.debian.org/debian/pool/main/g/grep/grep_3.11-4+b1_arm64.deb"
+			],
+			"version": "3.11-4+b1"
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,21 @@
+# To generate trixie.lock.json, run the following command:
+#
+#   bazel run @trixie//:lock
+#
+version: 1
+
+sources:
+  - channel: trixie main
+    url: https://deb.debian.org/debian
+  - channel: trixie-security main
+    url: https://security.debian.org/debian-security
+
+archs:
+  - "amd64"
+  - "arm64"
+
+packages:
+  - "tzdata"
+  - "bash"
+  - "coreutils"
+  - "grep"

@@ -1,0 +1,4 @@
+exports_files([
+    "trixie.yaml",
+    "trixie.lock.json",
+])

@@ -3,6 +3,7 @@ bazel_dep(name = "platforms", version = "1.0.0")
 bazel_dep(name = "rules_cc", version = "0.2.14")
 bazel_dep(name = "rules_oci", version = "2.2.7")
 bazel_dep(name = "rules_pkg", version = "1.1.0")
+bazel_dep(name = "rules_distroless", version = "0.6.1")
 bazel_dep(name = "toolchains_llvm", version = "1.5.0")
 
 # Pull the Debian OCI image for use as a base image
@@ -48,3 +49,16 @@ filegroup(
 )
 
 register_toolchains("@llvm_toolchain//:all")
+
+# Configure the apt extension to install packages into distroless images
+apt = use_extension(
+    "@rules_distroless//apt:extensions.bzl",
+    "apt",
+    dev_dependency = True,
+)
+apt.install(
+    name = "trixie",
+    lock = "//apt:trixie.lock.json",
+    manifest = "//apt:trixie.yaml",
+)
+use_repo(apt, "trixie")
