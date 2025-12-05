@@ -24,10 +24,10 @@ pkg_tar(
     package_dir = "/app",
 )
 
-# Create an OCI image based on alpine with the tarball layer
+# Create an OCI image based on debian with the tarball layer
 oci_image(
     name = "image",
-    base = "@alpine",
+    base = "@debian",
     entrypoint = ["/app/hello_world"],
     tars = [":layer"],
 )

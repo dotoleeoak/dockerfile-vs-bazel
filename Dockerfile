@@ -1,6 +1,11 @@
-FROM alpine:3.23.0
+FROM debian:13.2
 
-RUN apk add --no-cache clang cmake make
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    gcc \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY . /build
 
