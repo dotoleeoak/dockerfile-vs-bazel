@@ -1,3 +1,4 @@
+load("@bazel_lib//lib:transitions.bzl", "platform_transition_binary")
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 load("@rules_oci//oci:defs.bzl", "oci_image", "oci_load")
 load("@rules_pkg//pkg:tar.bzl", "pkg_tar")
@@ -17,16 +18,46 @@ cc_binary(
     ],
 )
 
+platform(
+    name = "linux_arm64",
+    constraint_values = [
+        "@platforms//os:linux",
+        "@platforms//cpu:arm64",
+    ],
+)
+
+platform(
+    name = "linux_amd64",
+    constraint_values = [
+        "@platforms//os:linux",
+        "@platforms//cpu:x86_64",
+    ],
+)
+
+# Support multi-platform binary (e.g. build linux binary on MacOS host)
+platform_transition_binary(
+    name = "hello_world_platform",
+    binary = ":hello_world",
+    target_platform = select({
+        "@platforms//cpu:arm64": ":linux_arm64",
+        "@platforms//cpu:x86_64": ":linux_amd64",
+    }),
+)
+
 # Create a tarball layer with the binary in /app
 pkg_tar(
     name = "layer",
-    srcs = [":hello_world"],
+    srcs = [":hello_world_platform"],
     package_dir = "/app",
 )
 
 # Create an OCI image based on debian with the tarball layer
 oci_image(
     name = "image",
+    architecture = select({
+        "@platforms//cpu:arm64": "arm64",
+        "@platforms//cpu:x86_64": "amd64",
+    }),
     base = "@debian",
     entrypoint = ["/app/hello_world"],
     tars = [":layer"],
